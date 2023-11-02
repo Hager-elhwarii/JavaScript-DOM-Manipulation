@@ -1,22 +1,87 @@
-
 /*====================
      GENERAL STYLING 
   ====================*/
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  :root {
-    font-size: 62.5%;
-    /* Color Variables */
-    --primary-white: #fff;
-    --primary-black: #000;
-  }
-  body {
-    height: 100vh;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  /*====================
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  /* Color Variables */
+  --primary-white: #fff;
+  --primary-black: #1c1b1b;
+  --primary-blue: #2b74c2;
+}
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(https://www.withum.com/wp-content/uploads/2013/08/private-library.jpg)
+      no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*====================
     ====================*/
+.container {
+  background-color: var(--primary-white);
+  width: 100%;
+  max-width: 580px;
+  height: auto;
+  padding: 3rem 4rem;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 3rem;
+  border-radius: 1rem;
+}
+.header > h2 {
+  font-size: 3.4rem;
+  font-weight: 600;
+  color: var(--primary-black);
+}
+.text-area > .quote {
+  font-size: 1.9rem;
+  line-height: 1.8;
+}
+.author> p {
+  margin: 3rem 0;
+  text-align: end;
+  font-size: 1.4rem;
+  font-style: italic;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.button-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-block #new-quote {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  padding: 1.2rem 2.2rem;
+  border-radius: 4rem;
+  border: none;
+  outline: none;
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+  transition: all 0.3s;
+}
+.button-block #new-quote:hover {
+  cursor: pointer;
+  background-color: #5596dc;
+}
+.button-block #quote-audio {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2.2rem;
+  color: var(--primary-blue);
+}
+.button-block #quote-audio:hover {
+  cursor: pointer;
+}
