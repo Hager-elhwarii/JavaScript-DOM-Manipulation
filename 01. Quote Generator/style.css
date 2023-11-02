@@ -47,7 +47,7 @@ body {
   font-size: 1.9rem;
   line-height: 1.8;
 }
-.author> p {
+.author{
   margin: 3rem 0;
   text-align: end;
   font-size: 1.4rem;
