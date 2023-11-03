@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Model Box</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Box</title>
 
     <!-- External CSS Link -->
     <link rel="stylesheet" href="style.css" />
@@ -25,8 +25,27 @@
 
     <!-- External Javascript Link -->
     <script src="script.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div>
+      <button id="open-btn">
+        <p>open our modal</p>
+      </button>
+      <div class="modal-container">
+        <div id="modal">
+          <div>
+            <h2>This is our Modal Title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur elit. Reiciendis, tempora
+              optio. Voluptatibus suscipit veniam voluptatum fugiat vero
+              dignissimos magni ex!
+            </p>
+          </div>
+          <div id="close-btn">
+            <iconify-icon icon="majesticons:close-line"></iconify-icon>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
