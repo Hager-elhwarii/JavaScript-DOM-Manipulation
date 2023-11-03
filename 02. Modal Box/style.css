@@ -11,18 +11,18 @@
   /* Color Variables */
   --primary-white: #fff;
   --primary-black: #1c1b1b;
+  --primary-red: rgb(215, 17, 17);
 }
 body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("https://w.forfun.com/fetch/fc/fc55e791ee8b7d03239ee3429373ef1d.jpeg")
       no-repeat center center / cover;
-  color: var(--primary-white);
 }
 
 /*====================
-    ====================*/
+  ====================*/
 
 #open-btn {
   position: absolute;
@@ -58,8 +58,23 @@ body {
   background-color: var(--primary-white);
   border-radius: 1rem;
   animation-name: animatemodal;
-  animation-duration: 0.4s;
+  animation-duration: 0.3s;
+
 }
+
+/*====================
+    ANIMATION STYLE
+  ====================*/
+  @keyframes animatemodal {
+    from {
+      top: -300px;
+      opacity: 0;
+    }
+    to {
+      top: 50%;
+      opacity: 1;
+    }
+  }
 #modal h2 {
   margin-bottom: 2.2rem;
   font-size: 3rem;
@@ -71,7 +86,7 @@ body {
 }
 #close-btn {
   font-size: 2.4rem;
-  color: rgb(215, 17, 17);
+  color: var(--primary-red);
 }
 #close-btn:hover {
   cursor: pointer;
@@ -85,3 +100,5 @@ body {
   height: 100%;
   z-index: 1;
 }
+
+
