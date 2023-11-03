@@ -6,7 +6,6 @@ let btn = document.querySelector("#new-quote");
 let audioBtn = document.querySelector("#quote-audio");
 
 // Quotes Array
-
 const quotes = [
   {
     quote: `❝ The best way to find yourself is to lose yourself in the service of others. ❞`,
@@ -55,17 +54,16 @@ btn.addEventListener("click", () => {
   // Math.random() => Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive).
   // Math.floor() =>  Used to round a number down to the nearest integer that is less than or equal to the given number.
   let randomQuote = Math.floor(Math.random() * quotes.length);
-
   quote.innerText = quotes[randomQuote].quote;
   author.innerText = quotes[randomQuote].author;
 });
 
+// Event Listener to read the Quote and it's auther once the audio button is clicked.
 audioBtn.addEventListener("click", () => {
   // Create a new speech synthesis object which is a Web Speech API, represents a speech request
   let utterance = new SpeechSynthesisUtterance(
     `${quote.innerText} by ${author.innerText}`
   );
-
   // Use the Web Speech API synthesis object to read the text
   speechSynthesis.speak(utterance);
 });

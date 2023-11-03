@@ -26,7 +26,7 @@ body {
 }
 
 /*====================
-    ====================*/
+  ====================*/
 .container {
   background-color: var(--primary-white);
   width: 100%;
@@ -85,4 +85,13 @@ body {
 }
 .button-block #quote-audio:hover {
   cursor: pointer;
+}
+
+/*======================
+    RESPONSIVE STYLING
+  ======================*/
+@media (max-width: 800px){
+  .header > h2 {
+    font-size: 2.4rem;
+  }
 }
