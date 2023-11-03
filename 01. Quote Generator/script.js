@@ -1,3 +1,5 @@
+const synth = window.speechSynthesis;
+
 let quote = document.querySelector(".quote");
 let author = document.querySelector(".author");
 let btn = document.querySelector("#new-quote");
@@ -49,20 +51,21 @@ const quotes = [
 ];
 
 // Event Listener to update Quote and it's auther once the button is clicked.
-
 btn.addEventListener("click", () => {
-    
   // Math.random() => Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive).
   // Math.floor() =>  Used to round a number down to the nearest integer that is less than or equal to the given number.
   let randomQuote = Math.floor(Math.random() * quotes.length);
+
   quote.innerText = quotes[randomQuote].quote;
   author.innerText = quotes[randomQuote].author;
 });
 
-audioBtn.addEventListener('click',()=> {
-     // Create a new speech synthesis object which is a Web Speech API, represents a speech request
-    let utterance = new SpeechSynthesisUtterance(`${quote.innerText} by ${ author.innerText}`)
-    console.log(utterance);
-    // Use the Web Speech API synthesis object to read the text
-    speechSynthesis.speak(utterance)
-})
+audioBtn.addEventListener("click", () => {
+  // Create a new speech synthesis object which is a Web Speech API, represents a speech request
+  let utterance = new SpeechSynthesisUtterance(
+    `${quote.innerText} by ${author.innerText}`
+  );
+
+  // Use the Web Speech API synthesis object to read the text
+  speechSynthesis.speak(utterance);
+});
