@@ -1,0 +1,24 @@
+/*====================
+     GENERAL STYLING 
+  ====================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  /* Color Variables */
+  --primary-white: #fff;
+  --primary-black: #1c1b1b;
+}
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.trendir.com/wp-content/uploads/2017/08/light-up-elongated-pool-design.jpg")
+      no-repeat center / cover;
+}
+
+/*====================
+    ====================*/
