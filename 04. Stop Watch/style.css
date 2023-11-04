@@ -13,12 +13,13 @@
   --primary-black: #1c1b1b;
   --primary-green: rgb(13, 128, 13);
   --primary-red: rgb(214, 8, 8);
+  --primary-orange: rgb(214, 8, 8);
 }
 body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://cdn.trendir.com/wp-content/uploads/2017/08/light-up-elongated-pool-design.jpg")
+    url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_17/2482031/180629-stock-better-bathing-suit-swimmer-pool-ew-1207p.jpg")
       no-repeat center / cover;
 }
 
@@ -32,7 +33,7 @@ body {
 }
 .watch-container > div {
   width: 100%;
-  max-width: 500px;
+  max-width: 630px;
   text-align: center;
   padding: 4rem 0;
   background-color: var(--primary-white);
@@ -46,11 +47,12 @@ body {
   font-weight: 300;
 }
 .watch-container .btn {
-  font-size: 3.6rem;
   color: var(--primary-white);
   border: none;
   padding: 0.8rem 1.5rem 0;
   border-radius: 0.4rem;
+  font-size: 3.6rem;
+
 }
 .watch-container .btn:hover {
   cursor: pointer;
@@ -62,6 +64,9 @@ body {
 }
 #play-btn {
   background-color: var(--primary-green);
+}
+#pause-btn {
+  background-color: var(--primary-orange);
 }
 #reset-btn {
   background-color: var(--primary-red);
