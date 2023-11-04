@@ -1,24 +1,105 @@
 /*====================
      GENERAL STYLING 
   ====================*/
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  /* Color Variables */
+  --primary-white: #fff;
+  --primary-black: #1c1b1b;
+  --primary-blue: #2b74c2;
+}
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://cdn.shopify.com/s/files/1/0210/2968/3222/articles/laptop-from-above.jpg?v=1596525427")
+      no-repeat center center / cover;
+}
+
+/*====================
+  ====================*/
+.accordion-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion-container > div {
+  background-color: var(--primary-white);
+  width: 100%;
+  max-width: 680px;
+  padding: 3rem;
+  margin: 0 2rem;
+  border-radius: 2rem;
+}
+.accordion-title {
+  font-weight: 500;
+  font-size: 3.2rem;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+.content-container .question {
+  padding: 2rem 0;
+  font-size: 2.1rem;
+  position: relative;
+}
+.content-container .question:hover {
+  cursor: pointer;
+}
+.content-container.active .question {
+  color: var(--primary-blue);
+}
+.content-container .question::after {
+  content: "+";
+  position: absolute;
+  right: 1rem;
+  transition: all 0.2s;
+}
+.content-container.active .question::after {
+  content: "-";
+}
+.content-container .question:hover::after {
+  cursor: pointer;
+  color: var(--primary-blue);
+}
+.content-container .answer {
+  padding: 0.5rem 0;
+  font-size: 1.7rem;
+  line-height: 1.5;
+  width: 100%;
+  height: 0;
+  color: #3f3d3d;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  border-top: 1px solid #c0bebe;
+}
+.content-container.active .answer {
+  border-top: 2px solid var(--primary-blue);
+}
+.content-container.active .answer {
+  height: 100px;
+  padding-top: 2rem;
+}
+
+/*======================
+    RESPONSIVE STYLING
+  ======================*/
+@media (max-width: 600px){
+  .accordion-title {
+    font-size: 2.1rem;
   }
-  :root {
-    font-size: 62.5%;
-    /* Color Variables */
-    --primary-white: #fff;
-    --primary-black: #1c1b1b;
+  .content-container .question {
+    font-size: 1.8rem;
   }
-  body {
-    height: 100vh;
-    font-family: "Poppins", sans-serif;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url("https://cdn.shopify.com/s/files/1/0210/2968/3222/articles/laptop-from-above.jpg?v=1596525427")
-        no-repeat center center / cover;
+  .content-container .answer {
+    padding: 0.4rem 0;
+    font-size: 1.6rem;
+    line-height: 1.6;
   }
-  
-  /*====================
-    ====================*/
+}
