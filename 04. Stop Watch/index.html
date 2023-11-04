@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stop Watch</title>
 
     <!-- External CSS Link -->
@@ -25,8 +25,25 @@
 
     <!-- External Javascript Link -->
     <script src="script.js" defer></script>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <div class="watch-container">
+      <div>
+        <div>
+          <p id="timer">00:00:00</p>
+        </div>
+        <div class="buttons">
+          <button class="btn" id="play-btn">
+            <iconify-icon icon="iconoir:play-solid"></iconify-icon>
+          </button>
+          <!-- <button class="btn">
+              <iconify-icon icon="material-symbols-light:pause-circle"></iconify-icon>
+            </button> -->
+          <button class="btn" id="reset-btn">
+            <iconify-icon icon="iconamoon:restart-bold"></iconify-icon>
+        </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
