@@ -1,0 +1,26 @@
+/*====================
+     GENERAL STYLING 
+  ====================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+  /* Color Variables */
+  --primary-white: #fff;
+  --primary-black: #1c1b1b;
+  --primary-green: rgb(13, 128, 13);
+  --primary-red: rgb(214, 8, 8);
+}
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://allaboutplanners.com.au/wp-content/uploads/2017/08/how-to-use-sticky-notes-for-planning-ideas-inspiration-tips-color-coding-blog-planning-arc-planner-diy-spread-colorful-alternative-to-traditional-planner-flexible-min.jpg")
+      no-repeat center / cover;
+}
+
+/*====================
+    ====================*/
