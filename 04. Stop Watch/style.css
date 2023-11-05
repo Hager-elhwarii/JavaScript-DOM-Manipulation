@@ -13,7 +13,6 @@
   --primary-black: #1c1b1b;
   --primary-green: rgb(13, 128, 13);
   --primary-red: rgb(214, 8, 8);
-  --primary-orange: rgb(214, 8, 8);
 }
 body {
   height: 100vh;
@@ -64,9 +63,6 @@ body {
 }
 #play-btn {
   background-color: var(--primary-green);
-}
-#pause-btn {
-  background-color: var(--primary-orange);
 }
 #reset-btn {
   background-color: var(--primary-red);
