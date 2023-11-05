@@ -40,6 +40,7 @@ body {
   display: flex;
   flex-flow: column wrap;
   gap: 3rem;
+  margin: 0 2rem;
 }
 .watch-container > div #timer {
   font-size: 7rem;
@@ -51,7 +52,6 @@ body {
   padding: 0.8rem 1.5rem 0;
   border-radius: 0.4rem;
   font-size: 3.6rem;
-
 }
 .watch-container .btn:hover {
   cursor: pointer;
@@ -67,4 +67,3 @@ body {
 #reset-btn {
   background-color: var(--primary-red);
 }
-
