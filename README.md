@@ -22,5 +22,16 @@ I created this repo as a resource to help you better understand and learn the `D
 - [Stop Watch](https://stop-watch-dottie.netlify.app/)
 - [To-Do List](https://simple-todo-list-dottie.netlify.app/)
 
+## 💻 Tech stack
+- Html
+- CSS
+- JavaScript
+
+##  🔐 Run locally 
+
+```bash
+git clone https://github.com/Hager-elhwarii/JavaScript-DOM-Manipulation.git
+```
+
 ## 🚀 Course Link 
   - [JavaScript DOM Manipulation](https://www.youtube.com/watch?v=5fb2aPlgoys)
