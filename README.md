@@ -33,5 +33,11 @@ I created this repo as a resource to help you better understand and learn the `D
 git clone https://github.com/Hager-elhwarii/JavaScript-DOM-Manipulation.git
 ```
 
-## 🚀 Course Link 
-  - [JavaScript DOM Manipulation](https://www.youtube.com/watch?v=5fb2aPlgoys)
+## 📌 Acknowledgments
+- [Google Fonts](http://hager.a.elhawary@gmail.com/)
+- [Iconify Design](https://iconify.design/)
+- [Flaticon](https://www.flaticon.com/)
+- [Netlify](https://www.netlify.com/)
+  
+
+- [JavaScript DOM Manipulation](https://www.youtube.com/watch?v=5fb2aPlgoys)
