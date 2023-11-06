@@ -11,16 +11,77 @@
   /* Color Variables */
   --primary-white: #fff;
   --primary-black: #1c1b1b;
-  --primary-green: rgb(13, 128, 13);
-  --primary-red: rgb(214, 8, 8);
+  --primary-light-gray: #9d9797;
+  --primary-blue: #4694e8;
 }
 body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://allaboutplanners.com.au/wp-content/uploads/2017/08/how-to-use-sticky-notes-for-planning-ideas-inspiration-tips-color-coding-blog-planning-arc-planner-diy-spread-colorful-alternative-to-traditional-planner-flexible-min.jpg")
       no-repeat center / cover;
 }
 
 /*====================
-    ====================*/
+  ====================*/
+.container {
+  height: 100%;
+}
+.container h2 {
+  text-align: center;
+  font-size: 6rem;
+  text-transform: capitalize;
+  color: var(--primary-white);
+  font-weight: 600;
+}
+.container > div {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100%;
+}
+.container > div > div {
+  width: 100%;
+  max-width: 500px;
+}
+.add-task-container {
+  width: 100%;
+  gap: 2rem;
+  display: flex;
+  padding: 2rem;
+  background-color: var(--primary-white);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#task-input {
+  flex: 1;
+  padding: 1.2rem 0 1rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #5da0e7;
+  font-size: 1.6rem;
+
+}
+::placeholder {
+  color: var(--primary-light-gray);
+}
+#add-task-btn {
+  text-transform: uppercase;
+  padding: 0.4rem 1.8rem;
+  font-size: 1.8rem;
+  letter-spacing: 1.4px;
+  border: none;
+  background: none;
+  border-radius: 0.4rem;
+  border: 2px solid var(--primary-blue);
+  /* background-color: var(--primary-blue); */
+  color: var(--primary-blue);
+  transition: all 0.3s ease;
+}
+#add-task-btn:hover {
+  cursor: pointer;
+  background-color: var(--primary-blue);
+  color: var(--primary-white);
+}
