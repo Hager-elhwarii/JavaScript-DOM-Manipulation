@@ -8,7 +8,7 @@
 
 ## 🌸 About this Repo
 - With HTML and CSS, you can build visually appealing static web pages. With a bit of `JavaScript`, you can add dynamic behavior to these static websites.
-- In this `Dom Manipulation` repository, I Learned the basics of JavaScript DOM Manipulation by doing **5 Simple Projects.** 
+- In this `Dom Manipulation` repo, I Learned the basics of JavaScript DOM Manipulation by doing **5 Simple Projects.** 
 
 ## 🚀 Course Link 
   - [JavaScript DOM Manipulation](https://www.youtube.com/watch?v=5fb2aPlgoys)
