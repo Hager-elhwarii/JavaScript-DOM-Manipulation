@@ -12,13 +12,16 @@
   --primary-white: #fff;
   --primary-black: #1c1b1b;
   --primary-light-gray: #9d9797;
+  --primary-gray: #eee;
   --primary-blue: #4694e8;
+  --primary-green: rgb(10, 186, 145);
+  --primary-red: rgb(215, 17, 17);
 }
 body {
   height: 100vh;
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://allaboutplanners.com.au/wp-content/uploads/2017/08/how-to-use-sticky-notes-for-planning-ideas-inspiration-tips-color-coding-blog-planning-arc-planner-diy-spread-colorful-alternative-to-traditional-planner-flexible-min.jpg")
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://scontent.fcai2-1.fna.fbcdn.net/v/t39.30808-6/271153875_2129063493915334_3271359670504731994_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFhgSEd_jbXZc6Yf1ii5Q3pfO3QuhK2Sv987dC6ErZK_2sN0kVLH7HQaQCGB3ZFuD1VQPALKakz5pPnXGJySPip&_nc_ohc=Jl6uK8cA8uIAX-Mff4K&_nc_ht=scontent.fcai2-1.fna&oh=00_AfBTJ68crPJ_hGSzad-fl91VMcf3WqVuTWhqy7pMcEHhaA&oe=654E8C71")
       no-repeat center / cover;
 }
 
@@ -27,19 +30,13 @@ body {
 .container {
   height: 100%;
 }
-.container h2 {
-  text-align: center;
-  font-size: 6rem;
-  text-transform: capitalize;
-  color: var(--primary-white);
-  font-weight: 600;
-}
+
 .container > div {
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
   height: 100%;
 }
 .container > div > div {
@@ -47,21 +44,27 @@ body {
   max-width: 500px;
 }
 .add-task-container {
-  width: 100%;
-  gap: 2rem;
-  display: flex;
-  padding: 2rem;
+  padding: 3.4rem;
+  margin: 0 2rem;
   background-color: var(--primary-white);
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ 
+}
+.add-task-container > .wrapper {
+  width: 100%;
+  gap: 2rem;
+  display: flex;
+  flex-flow: row wrap;
 }
 #task-input {
+  width: 100%;
   flex: 1;
   padding: 1.2rem 0 1rem;
   border: none;
   outline: none;
   border-bottom: 2px solid var(--primary-blue);
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 ::placeholder {
   color: var(--primary-light-gray);
@@ -82,4 +85,62 @@ body {
   cursor: pointer;
   background-color: var(--primary-blue);
   color: var(--primary-white);
+}
+#task-container {
+  padding-top: 1.5rem;
+}
+.task-wrapper {
+  display: flex !important;
+  padding: 2rem 1.6rem;
+  margin: 1.4rem 0 0;
+  background-color: var(--primary-gray);
+  border-radius: 0.4rem;
+}
+#task-container p {
+  flex: 1;
+  font-size: 1.7rem;
+}
+.btn {
+  padding: 0.5rem 0.6rem 0.2rem;
+  font-size: 1.6rem;
+  border: 2px solid;
+  border-radius: 100%;
+}
+#check-btn {
+  border-color: var(--primary-green);
+  color: var(--primary-green);
+  transition: all 0.3s ease;
+}
+#check-btn:hover {
+  background-color: var(--primary-green);
+  color: var(--primary-white);
+  cursor: pointer;
+}
+#delete-btn {
+  margin-left: 1rem;
+  border-color: var(--primary-red);
+  color: var(--primary-red);
+  transition: all 0.3s ease;
+}
+#delete-btn:hover {
+  background-color: var(--primary-red);
+  color: var(--primary-white);
+  cursor: pointer;
+}
+
+
+/*======================
+    RESPONSIVE STYLING
+  ======================*/
+@media (max-width: 380px){
+  #task-input {
+    font-size: 1.3rem;
+  }
+  #add-task-btn {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 1.3rem;
+  }
+ 
 }
