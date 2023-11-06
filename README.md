@@ -1,5 +1,5 @@
 # JavaScript DOM Manipulation :bulb: 
-DOM stands for `Document Object Model`. It is a programming interface that allows us to create, change,
+- DOM stands for `Document Object Model`. It is a programming interface that allows us to create, change,
 
 Or remove elements from a website document.
 
