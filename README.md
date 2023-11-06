@@ -13,8 +13,14 @@ I created this repo as a resource to help you better understand and learn the `D
   
 - In this `Dom Manipulation` repo, I Learned the basics of JavaScript DOM Manipulation by doing **5 Simple Projects.**
 
-  ## 🚀 Getting Started 
+## 🤸 Getting Started 
 > This is a several examples practicing key concepts of Dom Manipulation. Showing different Dom use cases:
+
+- [Quote Generator](https://quote-generator-dottie.netlify.app/)
+- [Modal Box](https://modal-box-dottie.netlify.app/)
+- [FAQ Page](https://frequently-asked-questions-dottie.netlify.app/)
+- [Stop Watch](https://stop-watch-dottie.netlify.app/)
+- [To-Do List](https://simple-todo-list-dottie.netlify.app/)
 
 ## 🚀 Course Link 
   - [JavaScript DOM Manipulation](https://www.youtube.com/watch?v=5fb2aPlgoys)
