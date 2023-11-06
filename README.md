@@ -4,7 +4,7 @@
   Or remove elements from a website document, using vanilla `JavaScript`.
 
 ## :camera_flash: Screenshot
-<img src='https://blog.sigplan.org/wp-content/uploads/2022/12/484622554-huge-scaled.jpg' height='500px' />
+![image](https://github.com/Hager-elhwarii/JavaScript-DOM-Manipulation/assets/80959882/241da77a-56e9-4078-b50f-43483c9bc262)
 
 ## 🚀 Course Link 
   - [JavaScript DOM Manipulation](https://www.youtube.com/watch?v=5fb2aPlgoys)
