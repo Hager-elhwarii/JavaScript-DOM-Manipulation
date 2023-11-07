@@ -34,11 +34,13 @@ git clone https://github.com/Hager-elhwarii/JavaScript-DOM-Manipulation.git
 ```
 
 ## 📌 Acknowledgments
+
+- [Netlify](https://www.netlify.com/)
+- [Flaticon](https://www.flaticon.com/)
+- [ImgBB](https://imgbb.com/)
 - [Google Fonts](http://hager.a.elhawary@gmail.com/)
 - [Iconify Design](https://iconify.design/)
-- [Flaticon](https://www.flaticon.com/)
-- [Netlify](https://www.netlify.com/)
-- [ImgBB](https://imgbb.com/)
+
 
 ## 🌼 Resources
 - [JavaScript DOM Manipulation](https://www.youtube.com/watch?v=5fb2aPlgoys)
