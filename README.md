@@ -1,3 +1,4 @@
+<a name="readme-top"></a>
 # JavaScript DOM Manipulation :bulb: 
 DOM stands for `Document Object Model`. It is a programming interface that allows us to create, change, Or
 
@@ -57,3 +58,8 @@ git clone https://github.com/Hager-elhwarii/JavaScript-DOM-Manipulation.git
 -  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
 -  [GitHub](https://github.com/Hager-elhwarii)
 
+## 📘 License
+This project is **Totally Free**,  and does not contain any license.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
