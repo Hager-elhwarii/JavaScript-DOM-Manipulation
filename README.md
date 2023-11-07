@@ -39,6 +39,11 @@ git clone https://github.com/Hager-elhwarii/JavaScript-DOM-Manipulation.git
 - [Flaticon](https://www.flaticon.com/)
 - [Netlify](https://www.netlify.com/)
 - [ImgBB](https://imgbb.com/)
-  
 
+## 🌼 Resources
 - [JavaScript DOM Manipulation](https://www.youtube.com/watch?v=5fb2aPlgoys)
+- [Manipulating Documents](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
+- [Javascript DOM](https://www.udacity.com/blog/2021/03/javascript-dom.html)
+- [DOM Manipulation](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [HTML DOM Examples](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
+
