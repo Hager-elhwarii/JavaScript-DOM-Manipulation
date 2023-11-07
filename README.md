@@ -49,3 +49,11 @@ git clone https://github.com/Hager-elhwarii/JavaScript-DOM-Manipulation.git
 - [DOM Manipulation](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [HTML DOM Examples](https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/)
 
+
+## 🦄 Author
+> If you want to get in-touch with me you can reach me at:
+
+-  [Email](http://hager.a.elhawary@gmail.com/)
+-  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
+-  [GitHub](https://github.com/Hager-elhwarii)
+
