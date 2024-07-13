@@ -50,7 +50,7 @@ git clone https://github.com/Hager-elhwarii/JavaScript-DOM-Manipulation.git
 ## 🦄 Author
 > If you want to get in-touch with me you can reach me at:
 
--  [Email](http://hager.a.elhawary@gmail.com/)
+-  [Email](https://mail.google.com/mail/u/0/?to=hager.a.elhawary@gmail.com&fs=1&tf=cm)
 -  [LinkedIn](https://www.linkedin.com/in/hager-omar-elhawary/)
 -  [GitHub](https://github.com/Hager-elhwarii)
 
